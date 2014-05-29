@@ -1,12 +1,13 @@
 {
   "name": "cmem",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Basic function stub maker",
   "main": "cmem.js",
   "directories": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "files": [ "cmem.js" ],
   "repository": {
     "type": "git",
     "url": "git://github.com/neytema/cmem.git"
