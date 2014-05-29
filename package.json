@@ -1,0 +1,21 @@
+{
+  "name": "cmem",
+  "version": "0.0.1",
+  "description": "Basic function stub maker",
+  "main": "cmem.js",
+  "directories": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/neytema/cmem.git"
+  },
+  "keywords": [ "stub" ],
+  "author": "Aloyzas Rimeika <neytema@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/neytema/cmem/issues"
+  },
+  "homepage": "https://github.com/neytema/cmem"
+}
