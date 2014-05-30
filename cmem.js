@@ -95,15 +95,21 @@ function make(fn) {
 }
 
 function iterator(pattern) {
-  var result = patterns[pattern];
+  var result, fn = patterns[pattern];
+  var args = slice.call(arguments, 1);
 
-  if ( ! result) {
-    result = Function('$item,$i,$list,$','$=arguments.callee.$;with($item)return '+ pattern);
-    Object.defineProperty(result, '$', { value: [], configurable: true, writable: true });
-    patterns[pattern] = result;
+  if ( ! fn) {
+    fn = Function('$item,$i,$list,$','with($item)return '+ pattern);
+    patterns[pattern] = fn;
   }
 
-  result.$ = slice.call(arguments, 1);
+  if (args.length) {
+    result = function iterator(item, i, list) {
+      return fn.call(this, item, i, list, args);
+    };
+  } else {
+    result = fn;
+  }
 
   return result;
 }
