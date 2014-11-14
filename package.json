@@ -12,7 +12,7 @@
     "type": "git",
     "url": "git://github.com/neytema/cmem.git"
   },
-  "keywords": [ "stub" ],
+  "keywords": [ "stub", "util", "test", "function" ],
   "author": "Aloyzas Rimeika <neytema@gmail.com>",
   "license": "MIT",
   "bugs": {
