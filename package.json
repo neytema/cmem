@@ -1,6 +1,6 @@
 {
   "name": "cmem",
-  "version": "0.0.3",
+  "version": "1.0.0",
   "description": "Basic function stub maker",
   "main": "cmem.js",
   "directories": {},
