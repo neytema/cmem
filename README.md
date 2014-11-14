@@ -12,7 +12,7 @@ object.fn(1);
 stub(2);
 object.fn(3);
 
-assert.deepEqual(stub.$select('$this === $[0]', '$args[0]', object), [ 1, 2 ]);
+assert.deepEqual(stub.$select('$this === $[0]', '$args[0]', object), [ 1, 3 ]);
 ```
 
 ## Installation
