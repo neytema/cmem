@@ -3,7 +3,8 @@
 Small and basic function stubbing module. Primarily used in unit testing.
 
 ```js
-var cmem = require('cmem')
+var assert = require('assert');
+var cmem = require('cmem');
 var stub = cmem();
 var object = { fn: stub };
 
