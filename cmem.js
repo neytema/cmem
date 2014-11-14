@@ -11,7 +11,8 @@ function create() {
     clear: { value: clear },
     unit: { value: unit },
     iterator: { value: iterator },
-    memos: { value: [] }
+    memos: { value: [] },
+    noop: { value: _silent }
   });
 
   return cmem;
