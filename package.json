@@ -1,7 +1,7 @@
 {
   "name": "cmem",
   "version": "1.0.0",
-  "description": "Basic function stub maker",
+  "description": "Small and basic function stubbing module. Primarily used in unit testing.",
   "main": "cmem.js",
   "directories": {},
   "scripts": {
